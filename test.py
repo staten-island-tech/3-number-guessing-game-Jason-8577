@@ -1,19 +1,14 @@
-import random
+""" import random
 number=random.randint(1, 10)
 print("guess a number from 1-10")
-for i in range(3):
+while number:
     guess = int(input("Choose a number"))
     if guess < number:
         print("Try again")
     elif guess > number:
         print("Try again")
-    else: 
-        print("choose a valid number")
-    guess = 4
-
-
-
-
+    elif guess == number: 
+        print("Congratulations!") """
 
 
 
