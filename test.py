@@ -30,9 +30,3 @@ while number:
         else:
             print("french")    
     lang("Cadee stole the capybara from Zi. Also Mason is the worst") """
-
-
-def spaces(y,t):
-
-
-    spaces("CCC..", ".C.C.C")
