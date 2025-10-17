@@ -1,14 +1,16 @@
 """ import random
 number=random.randint(1, 10)
+guesses = []
 print("guess a number from 1-10")
 while number:
     guess = int(input("Choose a number"))
+    guesses.append(guess)
     if guess < number:
-        print("Try again")
+        print("Try again", guesses)
     elif guess > number:
-        print("Try again")
+        print("Try again", guesses)
     elif guess == number: 
-        print("Congratulations!") """
+        print("Congratulations!", guesses) """
 
 
 
